@@ -8,6 +8,6 @@ class Hellobrew < Formula
   bottle :unneeded
 
   def install
-    bin.install "hellobrew"
+    bin.install "hellobrew-Darwin-x86_64" => "hellobrew"
   end
 end
